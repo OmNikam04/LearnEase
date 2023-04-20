@@ -424,10 +424,10 @@ text-white font-medium rounded-lg transition-colors duration-300"
         </div>
       ) : null}
 
-      <div className="bg-[#F3F8FF] min-h-screen">
+      <div className="bg-purplebg min-h-screen">
         <div className="grid grid-cols-11">
           <div
-            className="block msm:hidden col-start-1 col-end-3 bg-white
+            className="block msm:hidden col-start-1 col-end-3 bg-purplebg
 text-[#9696a6] min-h-screen fixed w-[18%]"
           >
             <Sidebar />
@@ -528,12 +528,12 @@ overflow-hidden bg-gray-300"
                 <div className="  px-5">
                   {closebtn === false && (
                     <div className="">
-                      <h1>The session has been created successfully</h1>
+                      <h1 className="text-xl font-semibold">The session has been created successfully</h1>
                       <br />
                       <h1>Share this link with the students </h1>
                       <br />
                       <div className=" bg-purplebg  rounded-lg mb-10 overflow-hidden">
-                        <h1 className=" bg-slate-200 text-black p-2">
+                        <h1 className=" bg-slate-100 drop-shadow-md text-black p-2">
                         {shareLink?.length > MAX_LINK_LENGTH ?`${shareLink.substring(0, MAX_LINK_LENGTH)}...`: shareLink}
                           <button
                             onClick={() =>

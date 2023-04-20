@@ -41,7 +41,7 @@ const Session = () => {
   // console.log("sessiondetails in session", sessionDetails[0][1]);
 
   return (
-    <div className="bg-gray-50 min-h-screen ">
+    <div className="bg-purplebg min-h-screen ">
       {console.log("summarydata", summaryData)}
       <div className="grid grid-cols-11">
         <div
@@ -56,7 +56,7 @@ text-[#9696a6] min-h-screen fixed w-[18%]"
             { !isSummaryLoading &&
               <div className="flex flex-col justify-start items-start gap-5 ">
               {/* <Banner1 bannerName={sessionDetails[0][1]?.title}/> */}
-              <div className="flex flex-row justify-between w-full">
+              <div className="flex flex-row justify-between w-full mt-4">
                 <p className="text-3xl font-serif">
                   Conducted by: {summaryData[0]?.creator?.firstName}
                 </p>{" "}
@@ -69,7 +69,7 @@ text-[#9696a6] min-h-screen fixed w-[18%]"
                 </Link>
                 </button>
               </div>
-              <div className="border-b-2 pb-2">
+              <div className="border-b-2 pb-2 space-y-4">
                 <p className="text-xl  font-semibold font-serif">
                   Topics covered:
                 </p>
@@ -77,7 +77,7 @@ text-[#9696a6] min-h-screen fixed w-[18%]"
                   <p
                     key={index}
                     className="mt-2  px-5 py-5
-rounded-md border-gray-700 bg-gray-200"
+rounded-md border-gray-700 bg-white drop-shadow-md"
                   >
                     {topic}
                   </p>

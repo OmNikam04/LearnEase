@@ -72,7 +72,7 @@ const SelectProfile = () => {
             <button
               onClick={() => navigate(`/${selectedValue}/signup`)}
               disabled={isSignupDisabled}
-              className={`w-2/4 text-white bg-babyPink hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-babyPink dark:hover:bg-pink-500 
+              className={`w-2/4 text-white bg-pink-500 hover:bg-babyPink hover:scale-105 transition-all focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center dark:bg-babyPink dark:hover:bg-pink-500 
               ${
                 isSignupDisabled && "opacity-40 cursor not allowed hover:cursor-not-allowed"
               }`}

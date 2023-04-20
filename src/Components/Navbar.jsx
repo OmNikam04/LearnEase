@@ -78,7 +78,7 @@ const Navbar = () => {
           Learn<span className="text-babyPink">Ease</span>
         </p>
       </div>
-      <div className="flex w-2/6 items-center justify-around">
+      <div className="flex space-x-4 items-center justify-around">
         <Link
           to="/about"
           className="relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
@@ -88,8 +88,8 @@ const Navbar = () => {
         >
           About us
         </Link>
-        <button className="bg-orngColor hover:bg-orngColor hover:scale-105 transition-all font-poppins text-white font-bold py-2 px-4 rounded-2xl" onClick={()=> navigate("/select")}>
-          Log in
+        <button className="bg-babyPink hover:bg-babyPink hover:scale-105 transition-all font-poppins text-white font-bold py-2 px-4 rounded-2xl" onClick={()=> navigate("/select")}>
+          Sign in
         </button>
       </div>
     </div>

@@ -162,7 +162,7 @@ const Quiz = () => {
           </form>
         </div>
       ) : null}
-      <div className="bg-[#F3F8FF] min-h-screen ">
+      <div className="bg-purplebg min-h-screen ">
         <div className="grid grid-cols-11">
           <div
             className="block bg-white msm:hidden col-start-1 col-end-3 
@@ -171,7 +171,7 @@ text-[#9696a6] min-h-screen fixed w-[18%]"
             <Sidebar />
           </div>
 
-          <div className="col-start-3 col-span-full first-letter:w-full bg-gray-100 min-h-screen py-8 pt-0">
+          <div className="col-start-3 col-span-full first-letter:w-full bg-purplebg min-h-screen py-8 pt-0">
             <div className="mx-auto px-4 py-8">
               <div className="flex justify-between ">
                 <div>

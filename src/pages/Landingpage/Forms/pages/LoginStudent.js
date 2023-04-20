@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import LoginStudent from "../components/LoginStudent";
+import login from "../../../../assets/login.jpg";
 
 export default function LoginPage() {
   return (
@@ -8,7 +9,7 @@ export default function LoginPage() {
           Learn<span className="text-babyPink">Ease</span>
         </p>
         <div className="grow h-screen w-1/2 flex justify-center items-center bg-gray-200 sm:hidden">
-        Login Image
+        <img src={login} className="h-full w-full" alt="user"/>
       </div>
 
     <div className="grow h-screen w-1/2 items-center p-10 sm:mt-5">

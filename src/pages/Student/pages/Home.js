@@ -142,7 +142,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-gray-200 to-white min-h-screen">
+    <div className="bg-purplebg min-h-screen">
       <Navbar />
       <div className="w-full px-[3rem] pt-[3rem]">
         <Banner1 bannerName={"Lectures"} />

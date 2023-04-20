@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const MultipleChoiceQuestion = ({ questionData }) => {
   // console.log(key)
   return (
-    <div className=" rounded-lg  space-y-2 font-serif ">
+    <div className=" rounded-lg  space-y-2 font-serif bg-white">
       <p className="text-xl p-3 border-b-2 ">Question:<span className="font-bold">{  questionData.text}</span></p>
       <div className="space-y-2">
         {questionData.options.map((option, index) => (

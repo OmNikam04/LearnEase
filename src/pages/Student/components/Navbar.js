@@ -44,10 +44,10 @@ const Navbar = () => {
           </Link>
           <div className="flex flex-row space-x-5 justify-center items-center">
           
-          <h1 className=" text-2xl">{student.student.emailID}</h1>
+          <h1 className=" text-2xl font-semibold">{student.student.emailID}</h1>
 
           <nav className="md:ml-auto md:mr-auto flex flex-row items-center gap-5 text-base justify-center">
-            <Link to={"/student/home"} className="mr-5 hover:text-gray-800">
+            <Link to={"/student/home"} className="mr-5 hover:text-gray-800 hover:font-bold">
               Home
             </Link>
           </nav>
